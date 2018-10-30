@@ -10,6 +10,11 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+nav{
+  position: fixed;
+  width: 100%;
+}
+
 #busca {
   margin:0 auto;
   padding:0;
@@ -38,8 +43,11 @@ body {
   text-transform:uppercase;
   
   }
+  .label:hover{
+    color: #550555
+  }
   #btnBusca:hover {
-  background:#c412c45d; 
+  background:#e291e25d; 
   }
   #txtbusca:focus {
     outline: none ;
@@ -100,43 +108,7 @@ a {
 Navigation trigger - visible on small devices only
 
 -------------------------------- */
-.cd-nav-trigger {
-  display: block;
-  position: fixed;
-  z-index: 2;
-  bottom: 30px;
-  right: 5%;
-  height: 44px;
-  width: 44px;
-  border-radius: 0.25em;
-  background: rgba(234, 242, 227, 0.9);
-  /* reset button style */
-  cursor: pointer;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  -ms-appearance: none;
-  -o-appearance: none;
-  appearance: none;
-  border: none;
-  outline: none;
-}
-.cd-nav-trigger span {
-  /* central dot */
-  position: absolute;
-  height: 4px;
-  width: 4px;
-  background-color: #8712c2;
-  border-radius: 50%;
-  left: 50%;
-  top: 50%;
-  bottom: auto;
-  right: auto;
-  -webkit-transform: translateX(-50%) translateY(-50%);
-  -moz-transform: translateX(-50%) translateY(-50%);
-  -ms-transform: translateX(-50%) translateY(-50%);
-  -o-transform: translateX(-50%) translateY(-50%);
-  transform: translateX(-50%) translateY(-50%);
-}
+
 .cd-nav-trigger span::before, .cd-nav-trigger span::after {
   /* bottom and top dots */
   content: '';
@@ -165,14 +137,6 @@ Vertical navigation
 
 -------------------------------- */
 .cd-vertical-nav {
-  position: fixed;
-  z-index: 1;
-  right: 5%;
-  bottom: 30px;
-  width: 90%;
-  max-width: 400px;
-  max-height: 90%;
-  overflow-y: auto;
   -webkit-transform: scale(0);
   -moz-transform: scale(0);
   -ms-transform: scale(0);
@@ -195,20 +159,6 @@ Vertical navigation
   color: #3a2c41;
   font-weight: bold;
   border-bottom: 1px solid rgba(58, 44, 65, 0.1);
-}
-.cd-vertical-nav a.active {
-  color: #c0a672;
-}
-.cd-vertical-nav.open {
-  -webkit-transform: scale(1);
-  -moz-transform: scale(1);
-  -ms-transform: scale(1);
-  -o-transform: scale(1);
-  transform: scale(1);
-  -webkit-overflow-scrolling: touch;
-}
-.cd-vertical-nav.open + .cd-nav-trigger {
-  background-color: transparent;
 }
 .cd-vertical-nav.open + .cd-nav-trigger span {
   background-color: rgba(58, 44, 65, 0);
@@ -346,7 +296,7 @@ Vertical navigation
     transition: transform 0.4s 0s, opacity 0.1s 0.3s;
   }
   .cd-vertical-nav a.active::before, .no-touch .cd-vertical-nav a:hover::before {
-    background-color: #c0a672;
+    background-color: #af66af;
   }
   .cd-vertical-nav li:first-of-type a::after {
     /* change icon using image sprites */
@@ -525,10 +475,9 @@ no-js
 }
 
 .no-js .cd-vertical-nav {
-  position: static;
-  height: auto;
+   height: auto; 
   width: 100%;
-  max-width: none;
+  /* max-width: none; */
   background-color: rgba(0, 0, 0, 0.8);
   border-radius: 0;
   -webkit-transform: scale(1);
@@ -537,14 +486,14 @@ no-js
   -o-transform: scale(1);
   transform: scale(1);
 }
-.no-js .cd-vertical-nav::before {
+/* .no-js .cd-vertical-nav::before {
   display: none;
-}
-.no-js .cd-vertical-nav ul::after {
+} */
+/* .no-js .cd-vertical-nav ul::after {
   clear: both;
   content: "";
   display: table;
-}
+} */
 .no-js .cd-vertical-nav li {
   display: inline-block;
   float: left;
@@ -570,3 +519,26 @@ no-js
 
 
 
+@media only screen and (max-width: 1102px){
+  #imagem1{
+   display: none;
+  }
+  #imagem2{
+ display: none;
+  }
+  #filha1{
+   justify-content: center;
+    vertical-align: middle;
+    text-align: center;
+    
+  }
+  #filha2{
+    justify-content: center;
+  vertical-align: middle;
+  text-align: center;
+  }
+  #mae{
+    background: url()
+  }
+  
+}

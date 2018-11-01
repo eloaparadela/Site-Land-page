@@ -14,3 +14,7 @@ function aparecerBarra(){
         barra.style.display = "none";
     }
 }
+
+function none(){
+    barra.style.display = "none";
+}

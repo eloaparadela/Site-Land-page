@@ -140,9 +140,11 @@ Detalhes da Nav
 .cd-vertical-nav a {
   display: block;
   padding: 1em;
-  color: #3a2c41;
+  color: #9839a5;
+  text-decoration: none;
   font-weight: bold;
-  border-bottom: 1px solid rgba(58, 44, 65, 0.1);
+  border-bottom: 1px solid rgba(107, 11, 116, 0.1);
+  transition-delay: 0.4s;
 }
 
 @media only screen and (min-width: 800px) {

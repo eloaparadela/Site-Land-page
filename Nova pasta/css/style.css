@@ -374,6 +374,7 @@ img:hover{
 }
 
 
-.carousel-inner{
-  
+.d-block{
+  width: 20%;
+
 }

@@ -33,6 +33,10 @@ nav{
   background-size: cover;
 
 }
+
+#cadastro{
+  margin-bottom: 200px;
+}
   #txtbusca {
   border:0px solid #222;
   background:rgb(219, 189, 236);

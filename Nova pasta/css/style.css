@@ -8,23 +8,47 @@ html {
 .opcoes{
   display: none;
 }
-#section2{
-display: flex;
-flex-direction: column;
-justify-content: center;
 
-
-}
+ 
 
 body {
   font-size: 1.6rem;
   font-family: "Sintony", sans-serif;
-  color: #eaf2e3;
-  background-color:#550555;
+  color: #548f21;
+  background-color:#5f1f5f;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   margin:0;
   padding:0;
+}
+#titulo-pag{
+  font-weight: bold;
+  font-size: 300%;
+}
+.btn-lg{
+  width: 30%;
+  height: 90%;
+  font-size: 20px;
+}
+.btn-primary {
+  color: #fff;
+  background-color: #b83fe7dc;
+  border-color: #9a08b8;
+}
+.btn-secondary {
+  color: #fff;
+  background-color: #b83fe7dc;
+  border-color: #9a08b8;
+}
+.btn-primary:hover{
+  background-color: #e1a8f3;
+  border-color: #9839a5;
+  transition-duration: 1s;
+}
+.btn-secondary:hover{
+  background-color: #e1a8f3;
+  border-color: #9839a5;
+  transition-duration: 1s;
 }
 nav{
   position: fixed;

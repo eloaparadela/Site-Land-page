@@ -282,8 +282,14 @@ Detalhes da Nav
   font-weight: bold;
   border-bottom: 1px solid rgba(107, 11, 116, 0.1);
   transition-delay: 0.4s;
+ 
 }
-
+.no-js .cd-vertical-nav li {
+  display: inline-block;
+  float: left;
+  font-size: 12px;
+  
+}
 @media only screen and (min-width: 800px) {
   .cd-vertical-nav a {
     font-size: 1.2rem;
@@ -387,12 +393,14 @@ no-js
 .no-js .cd-vertical-nav li {
   display: inline-block;
   float: left;
+  font-size: 13px;
   
 }
 .no-js .cd-vertical-nav a {
   padding: 0 1em;
   margin: 1.5em 1em;
    color: #fafcf8; 
+  
 }
 .no-js .cd-vertical-nav a:hover {
   color: #bd36fc;
@@ -557,14 +565,19 @@ img:hover{
  
 }
 }
-/* @media only screen and (max-width: 486px){
-  #section3 {
-    background-image: url(../ongsvertical-01.png);
+@media only screen and (max-width: 780px){
+ #section4 > #carouselExampleIndicators{
+    display: none;
+
+  }
+  #section4 > .carousel-inner{
+    display: none;
+  }
+  #section4 {
+    background-image: url(../char.png);
     background-repeat: no-repeat;
-   background-size: 50%;
+   background-size: contain;
    background-position: center;
+   
   }
-  #section3 h2 ,#section3 p{
-    display:none;
-  }
-} */
+}

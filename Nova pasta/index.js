@@ -19,6 +19,8 @@ function none(){
     barra.style.display = "none";
 }
 
+
+
 (function() {
   'use strict';
   window.addEventListener('load', function() {
@@ -83,5 +85,12 @@ $(document).ready(function() {
 });
 
 
+$('.carousel-client').bxSlider({
+  auto: true,
+    slideWidth: 234,
+    minSlides: 2,
+    maxSlides: 5,
+    controls: false
+});
 
 

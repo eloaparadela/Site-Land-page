@@ -468,7 +468,7 @@ no-js
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    background-color: rgba(111, 6, 116, 0.911);
+    background-color: rgba(235, 187, 238, 0.911);
     width:100vw;
      height:100vh;
     align-self: flex-start;
@@ -490,12 +490,12 @@ no-js
 
   #barra a{
     color: white;
-    font-size: 10pt;
+    font-size: 30pt;
     margin: 1px;
 }
 
 #barra a:hover{
-    color: rgb(94, 93, 93);
+    color: rgb(245, 131, 230);
     transition-duration: 1s;
 }
 
@@ -506,6 +506,16 @@ no-js
     align-self: flex-end;
     height: 11%;
     z-index: 2;
+}
+#section3 {
+  background-image: url(../ongsvertical-01.png);
+  background-repeat: no-repeat;
+ background-size: contain;
+ background-position: center;
+ 
+}
+#section3 h2 ,#section3 p{
+  display:none;
 }
 }
 
@@ -547,3 +557,14 @@ img:hover{
  
 }
 }
+/* @media only screen and (max-width: 486px){
+  #section3 {
+    background-image: url(../ongsvertical-01.png);
+    background-repeat: no-repeat;
+   background-size: 50%;
+   background-position: center;
+  }
+  #section3 h2 ,#section3 p{
+    display:none;
+  }
+} */

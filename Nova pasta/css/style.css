@@ -327,6 +327,69 @@ textarea {
   
 
 
+
+
+@media only screen and (max-width: 1208px){
+  #imagem1{
+   display: none;
+  }
+  #imagem2{
+ display: none;
+  }
+  #filha1{
+   justify-content: center;
+    vertical-align: middle;
+    text-align: center;
+    
+  }
+  #filha2{
+    justify-content: center;
+  vertical-align: middle;
+  text-align: center;
+  }
+  #section2{
+    background-image: url(../banner6-01.jpg);
+    background-size: cover;
+  }
+.informacao{
+  width: 100%;
+  max-width: 700px;
+  /* background-color: #fdf9fd1c; */
+  color: #ffffff;
+  
+}
+}
+
+@media only screen and (max-width: 1195px){
+  #imagem1{
+    width: 50%;
+    
+    
+}
+#imagem2{
+    width: 50%;
+      
+}
+/* .btn-lg{
+  width: 30%;
+  height: 90%;
+  font-size: 15px;
+} */
+}
+
+@media only screen and (max-width: 947px){
+#it {
+  display: none;
+}
+#section2 {
+  display: flex;  
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+ 
+}
+}
 @media only screen and (min-width: 800px) {
   .cd-nav-trigger {
     display: none;
@@ -473,59 +536,30 @@ no-js
   display: none;
 }
 
+@media only screen and (max-width: 780px){
+ #section4 > #carouselExampleIndicators{
+    display: none;
 
-@media only screen and (max-width: 1208px){
-  #imagem1{
-   display: none;
   }
-  #imagem2{
- display: none;
+  #section4 > .carousel-inner{
+    display: none;
   }
-  #filha1{
-   justify-content: center;
-    vertical-align: middle;
-    text-align: center;
-    
+  #section4 {
+    background-image: url(../chartest.png);
+    background-repeat: no-repeat;
+   background-size: contain;
+   background-position: center;
+   
   }
-  #filha2{
-    justify-content: center;
-  vertical-align: middle;
-  text-align: center;
-  }
-  #section2{
-    background-image: url(../banner6-01.jpg);
-    background-size: cover;
-  }
-.informacao{
-  width: 100%;
-  max-width: 700px;
-  /* background-color: #fdf9fd1c; */
-  color: #ffffff;
-  
-}
 }
 
-@media only screen and (max-width: 1195px){
-  #imagem1{
-    width: 50%;
-    
-    
-}
-#imagem2{
-    width: 50%;
-      
-}
-/* .btn-lg{
-  width: 30%;
-  height: 90%;
-  font-size: 15px;
-} */
-}
+
 @media only screen and (max-width: 720px){
   .cd-vertical-nav{
     display: none;
     
   }
+  
   .opcoes{
       position: fixed;
       top: 0;
@@ -594,7 +628,7 @@ no-js
 footer{
   display: flex;
   justify-content:center;
-   background-color: #c569e0;
+   background-color: #bba0c0;
   align-items:center;
 }
 
@@ -616,21 +650,8 @@ img:hover{
   width: 20%;
 
 }
-@media only screen and (max-width: 947px){
-#it {
-  display: none;
-}
-#section2 {
-  display: flex;  
-    flex-wrap: wrap;
-    justify-content: center;
-    justify-items: center;
-    align-items: center;
- 
-}
-}
-@media only screen and (max-width: 780px){
- #section4 > #carouselExampleIndicators{
+@media only screen and (max-width:600px){
+  #section4 > #carouselExampleIndicators{
     display: none;
 
   }

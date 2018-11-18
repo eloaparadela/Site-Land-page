@@ -42,7 +42,7 @@ function none(){
 
 // $('.dinheiro').mask('#.##0,00', {reverse: true});
 $(document).ready(function() {
-	// Test for placeholder support
+	// Teste para o placeholder 
     $.support.placeholder = (function(){
         var i = document.createElement('input');
         return 'placeholder' in i;
@@ -54,10 +54,10 @@ $(document).ready(function() {
             $(this).addClass('js-hide-label');
         });  
 
-        // Code for adding/removing classes here
+        //  Codigo para add ou remover classes 
         $('.form-group').find('input, textarea').on('keyup blur focus', function(e){
             
-            // Cache our selectors
+            // Cache 
             var $this = $(this),
                 $parent = $this.parent().find("label");
 					

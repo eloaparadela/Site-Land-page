@@ -564,6 +564,9 @@ no-js
   body{
     overflow: hidden;
   }
+  #company{
+    font-size: 30px;
+  }
   .opcoes{
       position: fixed;
       top: 0;

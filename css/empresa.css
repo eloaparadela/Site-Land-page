@@ -2,10 +2,6 @@
 
 html {
 	height: 100%;
-	/*Image only BG fallback*/
-	
-	
-	/*background = gradient + image pattern combo*/
 	background: 
 		linear-gradient(rgba(245, 221, 242, 0.6), rgba(219, 175, 236, 0.6));
 }
@@ -13,7 +9,6 @@ html {
 body {
 	font-family: "Sintony", arial, verdana;
 }
-/*form styles*/
 #msform {
 	width: 400px;
 	margin: 50px auto;
@@ -29,11 +24,9 @@ body {
 	box-sizing: border-box;
 	width: 80%;
 	margin: 0 10%;
-	
-	/*stacking fieldsets above each other*/
 	position: relative;
 }
-/*Hide all except first fieldset*/
+
 #msform fieldset:not(:first-of-type) {
 	display: none;
 }
@@ -64,7 +57,6 @@ body {
 #msform .action-button:hover, #msform .action-button:focus {
 	box-shadow: 0 0 0 2px white, 0 0 0 3px #27AE60;
 }
-/*headings*/
 .fs-title {
 	font-size: 15px;
 	text-transform: uppercase;
@@ -77,11 +69,10 @@ body {
 	color: #666;
 	margin-bottom: 20px;
 }
-/*progressbar*/
+
 #progressbar {
 	margin-bottom: 30px;
 	overflow: hidden;
-	/*CSS counters to number the steps*/
 	counter-reset: step;
 }
 #progressbar li {
@@ -112,7 +103,7 @@ input:focus{
 	border-radius: 3px;
 	margin: 0 auto 5px auto;
 }
-/*progressbar connectors*/
+
 #progressbar li:after {
 	content: '';
 	width: 100%;
@@ -121,14 +112,12 @@ input:focus{
 	position: absolute;
 	left: -50%;
 	top: 9px;
-	z-index: -1; /*put it behind the numbers*/
+	z-index: -1; 
 }
 #progressbar li:first-child:after {
-	/*connector not needed before the first step*/
 	content: none; 
 }
-/*marking active/completed steps green*/
-/*The number of the step and the connector before it = green*/
+
 #progressbar li.active:before,  #progressbar li.active:after{
 	background: rgb(163, 39, 174);
 	color: white;
@@ -136,3 +125,8 @@ input:focus{
 
 
 
+@media only screen and (max-width: 720px){
+	body{
+	  overflow: hidden;
+	}
+}

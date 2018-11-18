@@ -421,6 +421,9 @@ Detalhes da Nav
     font-size: 1.2rem;
     color: #eaf2e3;
   }
+  #company{
+    font-size: 40px;
+  }
 
   /* reset.css */
   .cd-vertical-nav .label {

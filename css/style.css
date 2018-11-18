@@ -165,7 +165,7 @@ nav{
 }
 
 #section1{
-  background-image: url(../mimgs-01.png);
+  background-image: url(../imgs/mimgs-01.png);
   /* background-repeat: no-repeat; */
   background-size: cover;
 
@@ -346,7 +346,7 @@ textarea {
   text-align: center;
   }
   #section2{
-    background-image: url(../banner6-01.jpg);
+    background-image: url(../imgs/banner6-01.jpg);
     background-size: cover;
   }
 .informacao{
@@ -543,7 +543,7 @@ no-js
     display: none;
   }
   #section4 {
-    background-image: url(../chartest.png);
+    background-image: url(../imgs/chartest.png);
     background-repeat: no-repeat;
    background-size: contain;
    background-position: center;
@@ -613,7 +613,7 @@ no-js
     z-index: 2;
 }
 #section3 {
-  background-image: url(../ongsvertical-01.png);
+  background-image: url(../imgs/ongsvertical-01.png);
   background-repeat: no-repeat;
  background-size: contain;
  background-position: center;
@@ -662,7 +662,7 @@ img:hover{
     display: none;
   }
   #section4 {
-    background-image: url(../char3-01.png);
+    background-image: url(../imgs/char3-01.png);
     background-repeat: no-repeat;
    background-size: contain;
    background-position: center;

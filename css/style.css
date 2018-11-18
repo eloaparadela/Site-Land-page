@@ -59,6 +59,7 @@ body {
   font-family: "Sintony", sans-serif;
   color: #f6f8f5;
   background-color:#5f1f5f;
+  overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   margin:0;

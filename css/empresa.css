@@ -129,5 +129,8 @@ input:focus{
 	body{
 	  overflow: hidden;
 	  position: fixed;
+	  justify-items: center;
+	  justify-content: center;
+	  align-items: center;
 	}
 }

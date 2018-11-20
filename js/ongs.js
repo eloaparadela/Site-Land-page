@@ -111,7 +111,3 @@ $(document).on('click', 'button.fin', function(e){
 	
 	
 });
-
-
-
-

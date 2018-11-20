@@ -153,6 +153,9 @@
 	.wrapper form .form-section .inputs button.prev,
 	.wrapper form .form-section .inputs button.fin {
 		padding: 10px 30px;
-		border: none;
+		
+	}
+	#fim{
+		padding: 10px 30px;
 	}
   }

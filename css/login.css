@@ -1,0 +1,36 @@
+body{
+background-image: url(../imgs/mimgs-01.png);
+background-size: cover;
+}
+
+.ui.input input {
+	border-radius: 0;
+	border-color: #ccc;
+   	border-width: 0 0 2px 0;
+   	border-style: none none solid none;
+     box-shadow: 0  0  10px  #c697dd;
+}
+.ui.input input:focus {
+	box-shadow: 0  0  10px  #9351b4;
+	border-color: #b20ddb;
+}
+.ui.teal.button:hover, .ui.teal.buttons:active .button:focus{
+    outline: none ;
+    box-shadow: 0  0  10px  purple;
+}
+
+.ui.teal.button, .ui.teal.buttons .button {
+    background-color: rgb(155, 91, 155);
+    color: #FFF;
+    text-shadow: none;
+    background-image: none;
+}
+
+.ui.large.teal.button:hover{
+    background-color: #b20ddb;
+    transition-duration: 1s;
+}
+
+.ui.large.teal.button{
+    background-color: #c697dd;
+}

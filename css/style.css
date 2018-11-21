@@ -30,6 +30,10 @@ html {
   font-size: 20pt; 
   text-align: center;  
 }
+#login{
+  color: #63fc5e;
+  font-weight: bold;
+}
 .itens{
   align-items: center; 
   align-content: center;
@@ -523,7 +527,7 @@ no-js
 .no-js .cd-vertical-nav li {
   display: inline-block;
   float: left;
-  font-size: 13px;
+  font-size: 12px;
   
 }
 .no-js .cd-vertical-nav a {

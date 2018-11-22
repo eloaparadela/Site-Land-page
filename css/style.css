@@ -31,8 +31,20 @@ html {
   text-align: center;  
 }
 #login{
-  color: #63fc5e;
+  color: purple;
   font-weight: bold;
+  text-decoration: none;
+}
+#login:hover{
+  color: white;
+  transition-duration: 2s;
+}
+#liLogin{
+  background-color: #f1cef1d2;
+}
+#liLogin:hover{
+  background-color: #9c289cd2;
+  transition-duration: 2s;
 }
 .itens{
   align-items: center; 
@@ -45,8 +57,8 @@ html {
   align-items: center; 
   align-content: center;
   justify-content: center;
-  
 }
+
 .row{
   align-items: center; 
   align-content: center;
@@ -600,12 +612,9 @@ no-js
   font-size: 20px;
   flex-direction: row;
   margin-bottom: 20px;
-  
-
 } 
 
-
-  #barra a{
+#barra a{
     color: white;
     font-size: 25pt;
     margin: 1px;

@@ -247,22 +247,12 @@ nav{
     border-color: #ecb4de ;
     box-shadow: 0  0  10px  #9351b4;
   }
-  /* div mae{
-    margin: 0%;
-    background-color: black;
-    height: 20%;
-    width: 98vw;
-    display: flex;
-    padding: 0;
-    flex-direction: column;
-    overflow: hidden;
-} */
-#filha1{
-  display: flex;
   
-}
+/* #filha1{
+  display: flex;
+} */
 
-#imagem1{
+/* #imagem1{
   width: 50%;
   height:6%;
   margin: 0%;
@@ -270,8 +260,8 @@ nav{
   align-items: flex-start;
   opacity: 0.5;
   filter: alpha(opacity=50);    
-}
-#filha2{
+} */
+/* #filha2{
   display: flex;
 }
 #imagem2{
@@ -284,7 +274,7 @@ nav{
 }
 .text1{
   padding-top: 50px;
-}
+} */
 
 
 .cd-image-replace {
@@ -499,7 +489,7 @@ Sections - estilo básico
   line-height: 1.6;
   width: 90%;
   max-width: 680px;
-  color: rgba(77, 6, 99, 0.6);
+  color: rgba(112, 17, 141, 0.6);
 } 
 
  .cd-scroll-down {

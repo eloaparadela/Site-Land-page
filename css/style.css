@@ -40,7 +40,7 @@ html {
   transition-duration: 2s;
 }
 #liLogin{
-  background-color: #f1cef1d2;
+  background-color: #fcd5fcbe;
 }
 #liLogin:hover{
   background-color: #9c289cd2;
@@ -193,7 +193,7 @@ nav{
 #cadastro{
   margin-bottom: 200px;
 }
-  #txtbusca {
+  /* #txtbusca {
   border:0px solid #222;
   background:rgb(219, 189, 236);
   width:390px;
@@ -216,13 +216,13 @@ nav{
   font-weight:bold;
   text-transform:uppercase;
   
-  }
+  } */
   .mae{
     padding: 0;
   }
   .no-js .cd-vertical-nav a:active {
     color:purple;
-    transition-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955);
+    transition-duration: 2s;
     
   }
   .cd-section .carouseltitle{
@@ -235,6 +235,7 @@ nav{
   }
   .label:hover{
     color: #550555;
+    transition-duration: 1s;
     
   }
   #btnBusca:hover {

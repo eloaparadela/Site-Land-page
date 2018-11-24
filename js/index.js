@@ -20,6 +20,7 @@ function none() {
 }
 
 
+// codigo dos comentarios 
 
 (function () {
     'use strict';
@@ -39,16 +40,14 @@ function none() {
     }, false);
 })();
 
+// validação dos comentarios
 
-// $('.dinheiro').mask('#.##0,00', {reverse: true});
 $(document).ready(function () {
     // Teste para o placeholder 
     $.support.placeholder = (function () {
         var i = document.createElement('input');
         return 'placeholder' in i;
     })();
-
-    // Hide labels by default if placeholders are supported
     if ($.support.placeholder) {
         $('.form-label').each(function () {
             $(this).addClass('js-hide-label');
@@ -85,12 +84,25 @@ $(document).ready(function () {
 });
 
 
+// carousel das empresas 
+
 $('.carousel-client').bxSlider({
     auto: true,
     slideWidth: 234,
     minSlides: 2,
     maxSlides: 5,
     controls: false
+});
+
+
+// codigo de movimento suave na pagina
+
+var $doc = $('html, body');
+$('.scrollsuave').click(function() {
+    $doc.animate({
+        scrollTop: $( $.attr(this, 'href') ).offset().top
+    }, 900);
+    return false;
 });
 
 

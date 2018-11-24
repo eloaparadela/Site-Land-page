@@ -11,18 +11,6 @@ html {
   display: none;
 }
 
- /* .content1{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  
- }
- .contentimg{
-  
- }
-#section3{
-  display: flex;
-} */
 .sobre{    
   width:50vw;
   align-items: center;
@@ -631,9 +619,9 @@ no-js
 #section-new > .btn-primary{
   /* width: 85%;
   height: 90%; */
-  font-size: 20px;
+  font-size: 18px;
   flex-direction: row;
-  margin-bottom: 15px;
+  margin-bottom: 6px;
 margin-right: 0%;
 
 } 

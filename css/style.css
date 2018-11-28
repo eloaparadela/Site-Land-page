@@ -655,6 +655,7 @@ margin-right: 0%;
   background-repeat: no-repeat;
  background-size: contain;
  background-position: center;
+ background-attachment: fixed;
  
 }
 #section3 h2 ,#section3 p{

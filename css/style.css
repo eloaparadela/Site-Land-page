@@ -317,6 +317,7 @@ textarea {
   transition: .333s ease top, .333s ease opacity;
   
 }
+ 
 .form-control {
 	border-radius: 0;
 	border-color: #ccc;
@@ -506,7 +507,7 @@ Sections - estilo básico
 .cd-section p {
   margin: 1em auto 0;
   line-height: 1.6;
-  width: 90%;
+  width: 85%;
   max-width: 680px;
   color: rgba(29, 28, 29, 0.74);
   text-align: justify;

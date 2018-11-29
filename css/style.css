@@ -273,9 +273,9 @@ nav{
     
   }
   .cd-section .carouseltitle{
-    color:rgba(238, 187, 248, 0.849);
+    color:rgba(236, 178, 248, 0.486);
     font-weight: bold;
-    font-size: 80pt;
+    font-size: 100pt;
   }
   .cd-section .carousel{
     color:rgb(241, 213, 248);
@@ -508,7 +508,7 @@ Sections - estilo básico
   line-height: 1.6;
   width: 90%;
   max-width: 680px;
-  color: rgba(112, 17, 141, 0.6);
+  color: rgba(29, 28, 29, 0.74);
   text-align: justify;
 } 
 

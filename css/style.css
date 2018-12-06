@@ -10,7 +10,6 @@ html {
 .opcoes{
   display: none;
 }
-
 .sobre{    
   width:50vw;
   align-items: center;
@@ -279,7 +278,7 @@ nav{
     font-size: 100pt;
   }
   .cd-section .carousel{
-    color:rgb(241, 213, 248);
+    color:rgb(246, 231, 250);
   }
   .label:hover{
     color: #550555;
@@ -581,6 +580,7 @@ no-js
     background-repeat: no-repeat;
    background-size: contain;
    background-position: center;
+   background-attachment: fixed;
    
   }
 }
@@ -700,6 +700,7 @@ img:hover{
   #section1{
     background-image: url(../imgs/scetion3-01.png);
     background-size: cover;
+    background-attachment: fixed;
   }
   #section4 > .carousel-inner{
     display: none;
@@ -709,6 +710,7 @@ img:hover{
     background-repeat: no-repeat;
    background-size: contain;
    background-position: center;
+   background-attachment: fixed;
    
   }
 }

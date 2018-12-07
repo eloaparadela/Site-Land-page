@@ -700,6 +700,7 @@ img:hover{
   #section1{
     background-image: url(../imgs/scetion3-01.png);
     background-size: cover;
+    background-attachment: fixed;
   }
   #section4 > .carousel-inner{
     display: none;
